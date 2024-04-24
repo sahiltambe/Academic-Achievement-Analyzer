@@ -20,7 +20,7 @@ from src.utils import save_object
 @dataclass
 class DataTransformationConfig:
     # The name of the pkl file where the preprocessor object will be saved
-    preprocessor_obj_file_path=os.path.join('artifacts',"proprocessor.pkl") # pkl file  path
+    preprocessor_obj_file_path=os.path.join('artifacts',"preprocessor.pkl") # pkl file  path
 
 class DataTransformation:
     '''
