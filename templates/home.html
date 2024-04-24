@@ -1,8 +1,11 @@
 <html>
+<head>
+    <a href="https://github.com/sahiltambe/Academic-Achievement-Analyzer" class="top-left-link" target="_blank">GitHub Repository Link</a>
+    <title>Gemstone Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
 <body>
     <div class="login">
-       <h1>Student's Exam Performance Indicator</h1>
-   
        <form action="{{ url_for('predict_datapoint')}}" method="post">
         <h1>
             <legend>Student's Exam Performance Indicator</legend>
