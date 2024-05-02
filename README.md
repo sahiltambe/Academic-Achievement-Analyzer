@@ -73,8 +73,8 @@ To run the question-answering demo locally, follow these steps:
 
 # Screenshot of UI
 
-![HomepageUI](./Screenshots/HomeUI.jpg)
-![ResultPage](./Screenshots/ProjectUI.jpg)
+![HomepageUI](./screenshots/HomeUI.jpg)
+![ResultPage](./screenshots/ProjectUI.jpg)
 
 ## Contributors & Contributing
 
