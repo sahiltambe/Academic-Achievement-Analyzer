@@ -1,58 +1,85 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
+    font-family: Arial, sans-serif;
+    background-color: #BFE6FF;
+  }
 
-.login {
-  width: 50%;
-  margin: 50px auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+.top-left-link {
+        position: absolute;
+        top: 20px; /* Add some top margin */
+        left: 20px; /* Add some left margin */
+        padding: 10px; /* Add some padding */
+        background-color: #DCAE96; /* Add a background color */
+        border-radius: 5px; /* Add some rounded corners */
+        font-size: 16px; /* Increase the font size */
+        color: black; /* Change the font color */
+        text-decoration: none; /* Remove the underline */
+        font-weight: bold;
+  }
 
-.login h1 {
-  text-align: center;
-  margin-bottom: 30px;
-}
+/* .profile
+  {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+        padding: 20px;      
+  } */
+  
+  .form-box {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FFFFE0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
 
-.mb-3 {
-  margin-bottom: 20px;
-}
-
-.form-label {
-  font-weight: bold;
-}
-
-.form-control {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.btn-primary {
-  width: 100%;
-  padding: 10px;
-  font-size: 18px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn-primary:hover {
-  background-color: #0056b3;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 24px;
-  color: #007bff;
-}
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-group {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    width: 30%;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+  }

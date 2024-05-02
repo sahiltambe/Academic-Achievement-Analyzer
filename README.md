@@ -21,60 +21,18 @@ The Academic Achievement Analyzer provides insights into student performance bas
 3. **Analysis**: Utilize the Academic Achievement Analyzer to analyze and interpret student performance metrics.
 4. **Actionable Insights**: Use the insights gained to implement targeted interventions and support strategies for students.
 
+
 ## Getting Started
-To run the Academic Achievement Analyzer locally:
+
+To run the question-answering demo locally, follow these steps:
+
 1. **Clone the Repository**: Clone this GitHub repository to your local machine.
 
 2. **Install Dependencies**: Install the required dependencies for the demo by running the appropriate package manager command (e.g., `npm install`, `pip install -r requirements.txt`).
-3. **Run the Flask application using the provided command**
-3. **Access the application through your web browser**
-
-## Dependencies
-
-- **Python 3.x**
-- **Flask**
-- **Pandas**
-- **Scikit-learn**
-- **Other necessary libraries (specified in requirements.txt)**
 
 
+## Contributing
 
-# Project Documentation
-## AWS Deployment Link :
-
-**AWS Elastic Beanstalk link** : [http://academicachievementanalyzersahiltambe-env.eba-7zp3wapg.ap-south-1.elasticbeanstalk.com/](http://academicachievementanalyzersahiltambe-env.eba-7zp3wapg.ap-south-1.elasticbeanstalk.com/)
-
-# Screenshot of UI
-
-![HomepageUI](./Screenshots/1.jpg)
-![ResultPage](./Screenshots/ProjectUI.jpg)
-
-# Approach for the project 
-
-1. **Data Ingestion** : 
-    * In Data Ingestion phase the data is first read as csv/fetch from the database(MySQL).
-    * Then the data is split into training and testing and saved as csv file.
-
-2. **Data Transformation** : 
-    * In this phase a ColumnTransformer Pipeline is created.
-    * for Numeric Variables first SimpleImputer is applied with strategy median , then Standard Scaling is performed on numeric data.
-    * for Categorical Variables SimpleImputer is applied with most frequent strategy, then ordinal encoding performed , after this data is scaled with Standard Scaler.
-    * This preprocessor is saved as pickle file.
-
-3. **Model Training** : 
-    * In this phase base model is tested . The best model found was Linear regressor.
-    * After this hyperparameter tuning is performed on Linear Regression.
-    * This model is saved as pickle file.
-
-4. **Prediction Pipeline** : 
-    * This pipeline converts given data into dataframe and has various functions to load pickle files and predict the final results in python.
-
-5. **Flask App creation** : 
-    * Flask app is created with User Interface to predict the gemstone prices inside a Web Application.
-
-
-## Contributors & Contributing
-**Sahil Tambe**
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
 
 
