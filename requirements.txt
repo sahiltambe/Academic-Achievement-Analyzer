@@ -7,7 +7,11 @@ catboost
 xgboost
 Flask
 dill
-pickle
-sys
-
+ipykernel
+jupyterlab
+jsonify
+requests
+uvicorn
+gunicorn
+pyodide
 # -e .
