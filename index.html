@@ -4,6 +4,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://unpkg.com/typescript/lib/tsserverlibrary.js"></script>
+    <script src="https://raw.githack.com/basarat/typescript-script/master/transpiler.js"></script>
+
     <link rel="stylesheet" href="https://pyscript.net/releases/2023.05.1/pyscript.css" />
     <script defer src="https://pyscript.net/releases/2023.05.1/pyscript.js"></script>
 
@@ -90,7 +93,7 @@
         }
     </style>
 </head>
-<body>
+<body py-init="init_model()">
     <py-config src="./pyscript.toml"></py-config>
     <py-script src="./main.py"></py-script>
 
@@ -170,22 +173,16 @@
         </div>
         <div class="mb-3">
             <!-- <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required /> -->
-            <button class="submit btn btn-dark" py-click="get_predictions()" required>SUBMIT</button>
+            
         </div>
         
         <h2 class="prediction">
             The maths score prediction is: <span class="result"></b></span>
         </h2>
-
         <br>
-        
-
-        
-
+        <button class="submit btn btn-dark" py-click="get_predictions()" required>SUBMIT</button>
     </div>
     </form>
-
-    
 
    <body>
 </html>
