@@ -1,4 +1,5 @@
 packages = ["pandas", "scikit-learn"]
+
 [[fetch]]
-from = 'https://raw.githubusercontent.com/sahiltambe/Academic-Achievement-Analyzer/main/model.pkl
+from = 'https://raw.githubusercontent.com/sahiltambe/Academic-Achievement-Analyzer/main/model.pkl'
 name = "Academic-Achievement-Analyzer"
