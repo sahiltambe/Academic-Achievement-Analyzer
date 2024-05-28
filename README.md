@@ -8,7 +8,7 @@ The Academic Achievement Analyzer provides insights into student performance bas
 
 ## Relevant Links
 
-- [Web Application](https://academic-achievement-analyzer-heohcoex2x6bmkjusnpurr.streamlit.app/) [Disclaimer](#disclaimer)
+- [Web Application](https://academic-achievement-analyzer-heohcoex2x6bmkjusnpurr.streamlit.app/) // [Disclaimer](#disclaimer)
 - [GitHub](https://github.com/sahiltambe/Academic-Achievement-Analyzer/)
 - [LinkedIn](https://www.linkedin.com/in/sahiltambe13//)
 
