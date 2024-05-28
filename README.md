@@ -8,7 +8,7 @@ The Academic Achievement Analyzer provides insights into student performance bas
 
 ## Relevant Links
 
-- [Web Application](https://academic-achievement-analyzer-heohcoex2x6bmkjusnpurr.streamlit.app//)
+- [Web Application](https://academic-achievement-analyzer-heohcoex2x6bmkjusnpurr.streamlit.app/)
 - [GitHub](https://github.com/sahiltambe/Academic-Achievement-Analyzer/)
 - [LinkedIn](https://www.linkedin.com/in/sahiltambe13//)
 
@@ -82,6 +82,10 @@ To run the question-answering demo locally, follow these steps:
 ![HomepageUI](./screenshots/HomeUI.jpg)
 ![ResultPage](./screenshots/ProjectUI.png)
 
+
+- My AWS free application hosting limit has been depleted, so I have deployed my application live on [Streamlit](https://academic-achievement-analyzer-heohcoex2x6bmkjusnpurr.streamlit.app/).
+![Streamlit](./screenshots/streamlit_ui.png)
+
 ## Contributors & Contributing
 
 **Sahil Tambe**
@@ -90,3 +94,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## Contact
 
 For questions or inquiries about the project, feel free to contact the project maintainers at [sahiltambe1996@gmail.com](mailto:sahiltambe1996@gmail.com).
+
+## Disclaimer
+
+This application is solely for demonstration purposes and should not be employed for making real loan decisions. The model's predictions rely on historical data and may not always be precise.
