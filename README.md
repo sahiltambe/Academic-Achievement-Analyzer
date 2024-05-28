@@ -6,6 +6,12 @@ The Academic Achievement Analyzer is a project designed to analyze and track aca
 
 The Academic Achievement Analyzer provides insights into student performance based on various parameters such as grades, attendance, participation, and more. It aims to help educators, administrators, and parents gain a deeper understanding of student progress and identify areas for improvement.
 
+## Relevant Links
+
+- [Web Application](https://academic-achievement-analyzer-heohcoex2x6bmkjusnpurr.streamlit.app//)
+- [GitHub](https://github.com/sahiltambe/Academic-Achievement-Analyzer/)
+- [LinkedIn](https://www.linkedin.com/in/sahiltambe13//)
+
 ## Features
 
 - **Performance Metrics**: Analyze grades, attendance records, and participation levels.

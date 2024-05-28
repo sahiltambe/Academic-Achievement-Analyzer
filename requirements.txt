@@ -13,5 +13,5 @@ jsonify
 requests
 uvicorn
 gunicorn
-pyodide
+streamlit
 # -e .
